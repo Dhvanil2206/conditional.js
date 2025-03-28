@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+
+<script>
+  // variables
+  // data types
+  // operators - arithmetic, assignment, comparison, logical, typeof, ternary
+  // conditional statements
+
+  //  base salary
+  let salary = 20000;
+  let HRA = 50; // 10% of salary
+  let DA = 15; // 5% of salary
+  let TA = 12; // 2% of salary
+
+  //   let HRA1 = console.log(HRA1);
+
+  //   let DA1 = console.log(DA1);
+
+  //   let TA1 = console.log(TA1);
+
+  let total_salary =
+    salary + (HRA * salary) / 100 + (DA * salary) / 100 + (TA * salary) / 100;
+  console.log(total_salary);
+
+  // if else condition
+
+  // eligible for voting
+
+  let age = 15;
+
+  if (age > 18) {
+    console.log("You are eligible to vote");
+  }
+
+  // find max value from 2
+
+  let num = 101;
+  let num1 = 20;
+
+  if (num > num1) {
+    console.log("Num is Max");
+  } else {
+    console.log("Num1 is Max");
+  }
+
+  // find max value from 3
+
+  let a = 10;
+  let b = 50;
+  let c = 300;
+
+  if (a > b && a > c) {
+    console.log("A is Max");
+  } else if (b > a && b > c) {
+    console.log("B is Max");
+  } else {
+    console.log("C is Max");
+  }
+
+  // find max value from 4
+
+  let aa = 110;
+  let bb = 220;
+  let cc = 330;
+  let dd = 440;
+
+  if (aa > bb && aa > cc && aa > dd) {
+    console.log("Aa is Max");
+  } else if (bb > aa && (bb > cc) & (bb > dd)) {
+    console.log("Bb is Max");
+  } else if (dd > aa && dd > bb && dd > cc) {
+    console.log("Dd is Max");
+  } else {
+    console.log("Cc is Max");
+  }
+
+  // find zero, negative and positive
+
+  let number = 0;
+
+  if (number > 0) {
+    console.log("Positive");
+  } else if (number == 0) {
+    console.log("Zero");
+  } else {
+    console.log("Negative");
+  }
+
+  // find week day
+
+  let week_day = 5;
+
+  if (week_day == 1) {
+    console.log("Monday");
+  } else if (week_day == 2) {
+    console.log("Tuesday");
+  } else if (week_day == 3) {
+    console.log("Wednesday");
+  } else if (week_day == 4) {
+    console.log("Thursday");
+  } else if (week_day == 5) {
+    console.log("Friday");
+  } else if (week_day == 6) {
+    console.log("Saturday");
+  } else {
+    console.log("Sunday");
+  }
+
+  // Find Month
+
+  // Find Leap Year
+
+  let year = 5;
+
+  if (year % 4 === 0) {
+    console.log("Leap Year");
+  } else {
+    console.log("Not Leap Year");
+  }
+  // check alphabet is vowel or consonant
+
+  let alpha = "a";
+
+  if (
+    alpha == "A" ||
+    alpha == "E" ||
+    alpha == "I" ||
+    alpha == "O" ||
+    alpha == "U" ||
+    alpha == "a" ||
+    alpha == "e" ||
+    alpha == "i" ||
+    alpha == "o" ||
+    alpha == "u"
+  ) {
+    console.log("Its a Vowel");
+  } else {
+    console.log("Consonant");
+  }
+    // check input is alphabet or digit or special character
+
+  let input = "t";
+
+  if (input >= 0 && input <= 999) {
+    console.log("Digit");
+  } else if ((input >= "A" && input <= "Z") || (input >= "a" && input <= "z")) {
+    console.log("Alphabet");
+  } else {
+    console.log("Special Character");
+  }
+  </script>
